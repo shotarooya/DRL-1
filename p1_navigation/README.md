@@ -36,7 +36,11 @@ The task is episodic, and in order to solve the environment, your agent must get
 
 ### Instructions
 
-Follow the instructions in `Navigation.ipynb` to get started with training your own agent!  
+Follow the instructions in `Navigation.ipynb` to get started with training your own agent!
+1.  **`Navigation.ipynb`**: This is the main notebook. Run the cells to train the DQN agent.
+2.  **`dqn_agent.py`**: The code for the Agent class (Deep Q-Learning algorithm).
+3.  **`model.py`**: The PyTorch neural network architecture (Q-Network).
+4.  **`checkpoint.pth`**: The saved model weights of the successful agent.
 
 ### (Optional) Challenge: Learning from Pixels
 
